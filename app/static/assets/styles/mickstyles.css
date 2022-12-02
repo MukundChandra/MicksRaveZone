@@ -1,0 +1,63 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.micks-mainpage {
+	position: relative;
+	margin: 2vh;
+	border: 4px;
+	border-style: solid;
+	border-color: white;
+	padding: 20px;
+	background: rgba(255,255,255,0.3);
+}
+
+.micks-mainpage p {
+	color: white;
+}
+
+.micks-mainoverlay {
+	position: absolute;
+	z-index: 2;
+	min-width: 100%;
+}
+
+.micks-background {
+	background-image: url("../images/shutterstock_407554567.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: darkgray;
+	background-blend-mode: multiply;
+    background-position: center;
+	position: fixed;
+	min-width: 100vw;
+    min-height: 100vh;
+	z-index: 1;
+}
+
+.micks-topbanner {
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.micks-btn {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: black;
+	min-height: 100px;
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+	align-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+	.micks-topbanner {
+	  flex-direction: column;
+	  align-items: center;
+	}
+  }
