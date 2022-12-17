@@ -14,3 +14,6 @@ Added some visuals for the website landing page.
 
 v0.4:
 Added grid layout support for landing page content.
+
+v0.41:
+Added PID logging to runapp.sh and more media queries.
