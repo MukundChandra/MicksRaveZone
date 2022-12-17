@@ -11,3 +11,6 @@ Using a shell script to run the flask application in the background.
 
 v0.3:
 Added some visuals for the website landing page.
+
+v0.4:
+Added grid layout support for landing page content.
