@@ -17,3 +17,6 @@ Added grid layout support for landing page content.
 
 v0.41:
 Added PID logging to runapp.sh and more media queries.
+
+v0.5:
+Added MyProjects page to the flask app.
