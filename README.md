@@ -20,3 +20,6 @@ Added PID logging to runapp.sh and more media queries.
 
 v0.5:
 Added MyProjects page to the flask app.
+
+v0.52:
+Added SignIn page to the flask app. It is yet to be worked on.

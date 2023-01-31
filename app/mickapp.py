@@ -10,6 +10,10 @@ def getHomePage():
 def getProjectsPage():
 	return flask.render_template('myprojects.html')
 
+@app.route('/signin')
+def getSignInPage():
+	return flask.render_template('signin.html')
+
 if __name__ == "__main__":
 	# app.run() starts the Flask app, you need to call this function to start it.
 	# It will most likely by running on http://127.0.0.1:5000/
