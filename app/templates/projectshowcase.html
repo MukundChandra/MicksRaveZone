@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Micks Rave Zone : Project Show Case : {{ projectname }}</title>
+	<link rel="stylesheet" href="../static/assets/styles/mickstyles.css">
+</head>
+<body>
+	<div class="micks-background"></div>
+	<div class="micks-mainoverlay">
+		<div class="micks-mainpage">
+			<div class="micks-topbanner"> 
+				<img src="../../static/assets/images/Main Icon With Name Black.png" height="100px">
+				<div class="micks-btn"><a href="/"><p>Home</p></a></div>
+				<div class="micks-btn"><p>My Resume</p></div>
+				<div class="micks-btn"><a href="/myprojects"><p>My Projects</p></a></div>
+				<div class="micks-btn"><p>My Contacts</p></div>
+				<div class="micks-btn"><p>Sign In</p></div>
+			</div>
+			<div class="micks-mainsection">
+				<div class="micks-projectroot" data-project-name="{{ projectname }}">
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/js" src="../../static/assets/scripts/{{ projectname }}-app.js"></script>
+</body>
+</html>

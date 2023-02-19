@@ -10,6 +10,11 @@ def getHomePage():
 def getProjectsPage():
 	return flask.render_template('myprojects.html')
 
+@app.route('/myprojects/<projectname>')
+def getProjectToRender(projectname):
+	# Can add some verification about the app being present in the server or not, and route them accordingly to the page.
+	return flask.render_template('projectshowcase.html',projectname=projectname)
+
 @app.route('/signin')
 def getSignInPage():
 	return flask.render_template('signin.html')

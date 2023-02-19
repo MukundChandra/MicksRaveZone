@@ -23,3 +23,6 @@ Added MyProjects page to the flask app.
 
 v0.52:
 Added SignIn page to the flask app. It is yet to be worked on.
+
+v0.53:
+Added ProjectShowCase page to test small js apps on the website.
